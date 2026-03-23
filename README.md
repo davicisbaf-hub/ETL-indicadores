@@ -1,9 +1,24 @@
 ESTRUTURA DAS COLUNAS
 
-![Logo Opera facil](blob:https://app.powerbi.com/07609afe-4ecc-4a94-b15e-5455de2b5ea0)
+![Logo Opera facil]()
 
-Filtros adicionados
-"codigo_agenda" | "nome" | "idade" | "sexo" | "prestador" | "profissional" | "procedimento" | "valor_sus" | "valor_regional" | "valor_total" | "data"
+
+
+Filtros adicionados (ORDEM)
+
+1. Agendamento:
+    Indicador
+2. Paciente:
+    Nome, idade, sexo
+3. Fornecedor
+    Nome Fantasia
+4. Profissional
+    Nome
+5. Procedimento
+    Descrição, Valor SUS, Valor Regional
+6. Agendamento
+    Data/Hora
+
 
 ```
         
