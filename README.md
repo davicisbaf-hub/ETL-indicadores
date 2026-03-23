@@ -1,10 +1,11 @@
-```
 ESTRUTURA DAS COLUNAS
 
 ![Logo Opera facil](blob:https://app.powerbi.com/07609afe-4ecc-4a94-b15e-5455de2b5ea0)
 
 Filtros adicionados
 "codigo_agenda" | "nome" | "idade" | "sexo" | "prestador" | "profissional" | "procedimento" | "valor_sus" | "valor_regional" | "valor_total" | "data"
+
+```
         
 📁relatorio_indicadores
     └── 📁data
@@ -23,3 +24,8 @@ Filtros adicionados
     ├── main.py
     └── requirements.txt
 ```
+
+## Dataset Preparation
+| Dataset | Download |
+| ---     | ---   |
+| dataset-A | [download]() |
