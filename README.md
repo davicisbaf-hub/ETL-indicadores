@@ -48,4 +48,4 @@ Filtros adicionados (ORDEM)
 
 | Foto | Nome | Função |
 |------|------|--------|
-| <img src="https://github.com/Davi-html.png" width="60"/> | Davi Fernandes ALves | Analista de Dados |
+| <img src="https://github.com/Davi-html.png" width="60"/> | [Davi Fernandes ALves](https://github.com/davi-html) | Analista de Dados |
