@@ -9,7 +9,7 @@ def load_data(processed_data, db_path):
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS validado (
-            baixar_agenda TEXT UNIQUE PRIMARY KEY,
+            baixar_guia TEXT UNIQUE PRIMARY KEY,
             nome TEXT,
             idade TEXT,
             sexo TEXT,
@@ -23,13 +23,13 @@ def load_data(processed_data, db_path):
         )
     ''')
     
-    df_validado = df_validado.drop_duplicates(subset=["baixar_agenda"])
+    df_validado = df_validado.drop_duplicates(subset=["baixar_guia"])
 
     existentes = pd.read_sql(
-        "SELECT baixar_agenda FROM validado", con
+        "SELECT baixar_guia FROM validado", con
     )
 
-    df_validado = df_validado[~df_validado["baixar_agenda"].isin(existentes["baixar_agenda"])]
+    df_validado = df_validado[~df_validado["baixar_guia"].isin(existentes["baixar_guia"])]
 
     df_validado.to_sql("validado", con, if_exists="append", index=False)
 

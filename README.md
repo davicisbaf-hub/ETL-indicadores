@@ -1,8 +1,7 @@
-ESTRUTURA DAS COLUNAS
-
 ![Logo Opera facil](https://cisbaf.org.br/uploads/siteDescricao/design-sem-nome-74_(150).png)
 
 
+ESTRUTURA DAS COLUNAS
 
 Filtros adicionados (ORDEM)
 
@@ -41,6 +40,13 @@ Filtros adicionados (ORDEM)
 ```
 
 ## Dataset Preparation
-| Dataset | Download |
-| ---     | ---   |
-| dataset-A | [download]() |
+| Dataset  |   Download   |
+|   ---    |     ---      |
+| Raw File | [download](https://raw.githubusercontent.com/davicisbaf-hub/arquivos-download/main/relatorio_indicadores_agendamentos.xlsx) |
+
+## 👨‍💻 Desenvolvedores
+
+| Foto | Nome | Função |
+|------|------|--------|
+| <img src="https://github.com/Davi-html.png" width="60"/> | Seu Nome | Data Engineer |
+| <img src="https://github.com/davicisbaf-hub.png" width="60"/> | Outro Nome | Data Analyst |

@@ -9,7 +9,7 @@ def transform_data(raw_file_path):
     data = data.iloc[19:]
 
     data.columns = [
-        "baixar_agenda",
+        "baixar_guia",
         "nome",
         "idade",
         "sexo",
