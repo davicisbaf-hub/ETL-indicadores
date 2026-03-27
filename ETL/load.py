@@ -9,13 +9,14 @@ def load_data(processed_data, db_path):
     
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS validado (
-            baixar_guia TEXT UNIQUE PRIMARY KEY,
+            baixar_guia TEXT PRIMARY KEY,
             nome TEXT,
             idade TEXT,
             sexo TEXT,
             prestador TEXT,
             profissional TEXT,
             procedimento TEXT,
+            quantidade INTEGER, 
             valor_sus DECIMAL(10, 2),
             valor_regional DECIMAL(10, 2),
             valor_total DECIMAL(10, 2),

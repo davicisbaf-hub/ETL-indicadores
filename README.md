@@ -9,13 +9,13 @@ Filtros adicionados (ORDEM)
     Indicador
 2. Paciente:
     Nome, idade, sexo
-3. Fornecedor
+3. Fornecedor:
     Nome Fantasia
-4. Profissional
+4. Profissional:
     Nome
-5. Procedimento
-    Descrição, Valor SUS, Valor Regional
-6. Agendamento
+5. Procedimento:
+    Descrição, Valor SUS, Valor Regional, Valor Total
+6. Agendamento:
     Data/Hora
 
 
